@@ -1,0 +1,112 @@
+/* --- DEBUT Reset CSS --- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ 
+    margin:0;
+    padding:0;
+  }
+  table {
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+  fieldset,img { 
+    border:0;
+  }
+  address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+  }
+  ol,ul {
+    list-style:none;
+  }
+  caption,th {
+    text-align:left;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+  }
+  q:before,q:after {
+    content:'';
+  }
+  abbr,acronym { 
+    border:0;
+  }
+/* --- FIN Reset CSS --- */
+
+
+/* --- DEBUT CSS classique --- */
+@page { margin: 0%; }
+
+body {
+  height: 1122px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  font-size: 10pt;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* --- FIN CSS classique --- */
+
+
+/* --- DEBUT Classe --- */
+.column {
+  height: 100%;
+}
+
+.column:first-child {
+  width: 25%;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.column:nth-child(2) {
+  width: 75%;
+  color: black;
+  background-color: white;
+}
+
+.column:nth-child(2) h1 {
+  color: cornflowerblue;
+}
+
+.description {
+  /* border: 1px solid green; */
+  border-top: 1px black solid;
+  padding-top: 15px;
+  margin: 30px ;
+}
+
+.parcours {
+  /* border: 1px solid greenyellow; */
+  border-top: 1px cornflowerblue solid;
+  margin: 0px 30px 0px 0px;
+  padding: 10px 0px 30px 30px;
+  
+}
+/* --- FIN Classe --- */
+
+
+/* --- DEBUT Id --- */
+#main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+#logo {
+  display: block;
+  width: 196px;
+  height: 196px;
+  background-color: blue;
+  text-align: center;
+
+}
+/* --- FIN Id --- */
