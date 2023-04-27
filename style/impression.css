@@ -89,16 +89,15 @@ acronym {
 
 body {
   height: 1122px;
-  font-family: 'Courier New', Courier, monospace;
   text-align: justify;
   font-size: 11pt;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 15pt;
   text-transform: uppercase;
-  padding-bottom: 0.5em;
+  padding-bottom: 5px;
 }
 
 strong {
@@ -116,13 +115,13 @@ strong {
 }
 
 .column:first-child {
-  width: 25%;
+  width: 30%;
   color: white;
   background-color: #10657e;
 }
 
 .column:nth-child(2) {
-  width: 75%;
+  width: 70%;
   color: black;
   background-color: white;
 }
@@ -134,7 +133,7 @@ strong {
 .description {
   /* border: 1px solid green; */
   border-top: 1px black solid;
-  padding-top: 15px;
+  padding-top: 20px;
   margin: auto;
   margin-top: 20px;
   width: 75%;
@@ -161,11 +160,11 @@ strong {
   /* border: 1px solid greenyellow; */
   border-top: 1px #10657e solid;
   margin: 0px 30px 0px 0px;
-  padding: 10px 0px 25px 30px;
+  padding: 20px 0px 20px 30px;
 }
 
 .parcours ul {
-  padding-left: 20px; 
+  padding-left: 20px;
   list-style-position: inside;
   list-style: disc;
 }
@@ -221,12 +220,14 @@ strong {
 }
 
 #logo {
+  margin: auto;
+  margin-top: 20px;
   display: block;
   width: 196px;
   height: 196px;
-  background-color: blue;
+  border-radius: 50%;
   text-align: center;
-
+  background-image: url("../icons/photo.JPG");
 }
 
 #title {
@@ -235,23 +236,24 @@ strong {
 }
 
 #title h1 {
-  font-size: 20pt;
+  font-size: 18pt;
   text-transform: none;
 }
 
 #title h2 {
-  font-size: 1.20em;
+  font-size: 20pt;
   color: rgb(102, 102, 102);
   text-transform: uppercase;
+  padding: 5px 0px 10px 0px;
 }
 
 #personnal_data {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 20px 30px;
+  padding: 20px 0px 0px 0px;
 }
 
 #personnal_data li {
   list-style-position: inside;
+  line-height: 16px;
   padding: 1px 0px 1px 0px;
 }
 
@@ -271,6 +273,14 @@ strong {
   list-style-image: url("../icons/car.svg");
 }
 
+#internet {
+  list-style-image: url("../icons/internet.svg");
+}
+
+#linkedin {
+  list-style-image: url("../icons/linkedin.svg");
+}
+
 #langage {
   position: relative;
   display: grid;
@@ -285,6 +295,13 @@ strong {
 
 /* --- DEBUT Animation ---  */
 @keyframes progress_bar_anim {
-  from {transform: scaleX(0)} to {transform: scaleX(attr(value))}
+  from {
+    transform: scaleX(0)
+  }
+
+  to {
+    transform: scaleX(attr(value))
+  }
 }
+
 /* --- FIN Animation ---*/
