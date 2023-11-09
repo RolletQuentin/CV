@@ -290,6 +290,10 @@ strong {
   list-style-image: url("../icons/linkedin.svg");
 }
 
+#github {
+  list-style-image: url(../icons/github-mark.png);
+}
+
 #langage {
   position: relative;
   display: grid;
