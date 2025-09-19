@@ -97,9 +97,10 @@ a:visited {
 }
 
 body {
-  height: 1122px;
+  height: 1056px;
   text-align: justify;
   font-size: 11pt;
+  font-family: 'Roboto', Courier, monospace;
 }
 
 h1 {
