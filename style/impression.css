@@ -146,7 +146,7 @@ strong {
   padding-top: 15px;
   margin: auto;
   margin-top: 15px;
-  width: 75%;
+  width: 78%;
 }
 
 .description .progress_bar {
@@ -233,8 +233,9 @@ strong {
   margin: auto;
   margin-top: 20px;
   display: block;
-  width: 196px;
-  height: 196px;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
   border-radius: 50%;
   text-align: center;
   background-image: url("../icons/photo.JPG");
@@ -268,6 +269,7 @@ strong {
 }
 
 #phone {
+  color: white;
   list-style-image: url("../icons/phone.svg");
 }
 
@@ -295,14 +297,17 @@ strong {
   list-style-image: url(../icons/github-mark.png);
 }
 
-#langage {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+#skills {
+  padding-left: 8px;
+  list-style-position: inside;
+  list-style: disc;
 }
 
-#langage .item {
-  padding: 10px 0px 30px 0px;
+#skills > li > ul {
+  padding-left: 8px;
+  list-style-position: inside;
+  list-style: circle;
+  margin-bottom: 5px;
 }
 
 /* --- FIN Id --- */
